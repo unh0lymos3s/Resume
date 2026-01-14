@@ -1,0 +1,48 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Skills}
+\renewenvironment{cvskills}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2.0mm}
+  \begin{center}
+    % Change 'r' to 'l' for left alignment of the category column
+    % Adjust 'L{12.5cm}' if you want to change the width of the skills column
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l L{12.5cm}}
+  }{%
+    \end{tabular*}
+  \end{center}
+}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+
+%---------------------------------------------------------
+  \cvskill
+    {Deep Learning Frameworks} % Category
+    {Pytorch, TensorFlow}% Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Generative AI and LLMs} % Category
+    {HuggingFace Transformers, LangChain, Agents, MCP} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Programming and High-Performance Computing} % Category
+    {Python, C++, CUDA, Rust} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {MLOps and Quantization} % Category
+    {Llama.cpp, Ollama, ONNX, MLFlow} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Back-end and Networking} % Category
+    {Flask, Tokio, TCP/UDP, REST} % Skills
+
+%---------------------------------------------------------
+\end{cvskills}
