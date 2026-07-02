@@ -3,3 +3,5 @@
 *.out
 *.swp
 .DS_Store
+/images
+

@@ -17,18 +17,24 @@
 
 \cventry
 {Data Scientist} % Job title
-{Virtual Remittance Gateway (VRG) --- AI Research and Development} % Organization
+  {Virtual Remittance Gateway (VRG) --- AI R&D, GRC} % Organization
 {Karachi, Pakistan} % Location
 {December 2024 --- Present} % Date(s)
 {% Description(s) of tasks/responsibilities
   \begin{cvitems}
-    \item {Building AI powered solutions for Financial Institutions, with a focus on AI agents and NL2Code}
-    \item {Locally deployed AI tools, such as \textbf{Coding agents powered by LLama.cpp}, to automate Data Analysis}
-    \item {Technologies include \textbf{Python}, \textbf{Apache Kafka}, \textbf{ClickhouseDB}, \textbf{Redis}, \textbf{FastAPI}, \textbf{PyDantic}}
-    \item {Training and Testing ML Models with \textbf{Huggingface Transformers}, \textbf{RiverML}, \textbf{ML Flow}, \textbf{PyTorch}}
-    \item {Built an internal suite to automate daily reporting for State Bank of Pakistan and partner banks for regulatory compliance}
-    \item {Building end-to-end high-performance and eXplainable systems for Financial Fraud Detection, Data Analysis and Cash-flow prediction in ATMs}
-  \end{cvitems}
+    \item {Building software solutions to optimize business workflows and in-house tools for management and analytics}
+    \item {Built a full stack analytics engine serving different dashboards, REST APIs and an LLM Chat Assistant ; with React, Node.JS/Express, Python and Oracle.} \begin{itemize}
+      \item {Utilized \textbf{Python+Oracle} data pipeline to join transaction tables of >30M and >14M rows into an aggregated json snapshot reducing load time from \textbf{\approx 60 seconds to < 1 second .}}
+      \item {Built an Agentic Chat Assistant using LLM tool calling with \textbf{Ollama}; wrote 6 different tools for data-retrieval, with a multi-tool call loop, thread-based session persistance, and \textbf{SQLite DB} for chat history storage and restarts.}
+      \item {Implemented layered guard-rails for AI security against hallucination and prompt injection: a Pre-flight LLM classifier to detect the scope of queries, and hardened system prompt boundaries to ensure tool-returned answers.}
+      \item {Built a client side geospatial Agent-Locator utility using \textbf{Deck.gl, MapLibreGL and SuperCluster} to track activity of AIO Agents across Pakistan.}
+      \item {Built a zero-dependency Node gateway serving all SPAs and consolidated all four different services onto a single port.}
+      \end{itemize}
+    
+    \item {Relying on AI coding tools \textbf{ClaudeCode, OpenCode, Codex} for rapid prototyping, exploring new technologies and creating secure-by-design applications.}
+    \item {Built an internal suite utilizing \textbf {Python/Flask framework} to automate daily reporting for State Bank of Pakistan and partner banks for regulatory compliance.
+    \item {Working closely with Cybersecurity team to perform vulnerability assessment of in-house apps with \textbf{ZAP}}
+    \end{cvitems}
 }
 
 \vspace{\myspacing}
